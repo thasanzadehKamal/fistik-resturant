@@ -719,7 +719,6 @@ export default function App() {
                   <div className="p-6 md:p-8">
                     <div className="text-sm font-black uppercase tracking-[0.22em] text-[#d2a246]">{filteredItems.length} seçim</div>
                     <h3 className="mt-2 font-serif text-3xl font-black md:text-5xl">{activeCategoryName}</h3>
-                    <p className="mt-3 max-w-2xl text-white/62">Bu bölmədə yemək adına uyğun şəkillər göstərilir. Şəkil yüklənməsə, avtomatik olaraq bölmənin stabil görüntüsü istifadə olunur.</p>
                   </div>
                 </div>
               </div>
@@ -785,7 +784,6 @@ export default function App() {
               <span className="text-sm font-black uppercase tracking-[0.28em] text-[#8db600]">Qalereya</span>
               <h2 className="mt-4 font-serif text-4xl font-black text-[#452018] dark:text-white md:text-6xl">Kafenin atmosferi</h2>
             </div>
-            <p className="max-w-md text-[#5f5149] dark:text-white/62">Bu bölmədə yalnız məkana aid görüntülər saxlanılıb. Yemək şəkilləri menyu kartlarında ayrıca göstərilir.</p>
           </div>
 
           <div className="grid auto-rows-[220px] gap-4 md:grid-cols-4 md:auto-rows-[240px]">
